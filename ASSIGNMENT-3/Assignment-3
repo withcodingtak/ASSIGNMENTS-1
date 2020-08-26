@@ -1,0 +1,118 @@
+<html>
+  <body bgcolor=yellow text=blue>
+  <h2>MY FAVOURITE MARVEL MOVIES</h2>
+  <ol type=1>
+    <li>Phase One</li>
+    <ul type=sqare>
+      <li>Iron Man</li>
+      <ol type=a>
+        <li>Release Date</li>
+        <ul type=circle>
+          <li>May 2,2008</li>
+        </ul>
+        <li>Director</li>
+        <ol type=i>
+          <li>Jon Favreau</li>
+          <ul type=sqare>
+            <li>Actor</li>
+            <ul type=disc>
+              <li>1992-present</li>
+            </ul>
+            <li>Director</li>
+          </ul>
+        </ol>
+        <li>Producers</li>
+        <ol type=1>
+          <li>Avi Arad</li>
+          <li> Kevin Feige</li>
+        </ol>
+       
+      </ol>
+      <li>The Incredible HULK</li>
+      <ol type=a>
+        <li>Release Date</li>
+        <ul type=circle>
+          <li>June 13,2010</li>
+        </ul>
+        <li>Directors</li>
+        <ol type=1>
+          <li>Lousis Leterrier</li>
+        </ol>
+        <ul>
+          <li>2002-till present</li>
+        </ul>
+        <li>Producers</li>
+        <ol type=1>
+          <li>Gale Anne Hurd</li>
+          <li>Avi Arad</li>
+          <li>Kevin Feige</li>
+        </ol>
+      </ul>
+   <li><b>Phase Two</b></li>
+    <ol>
+        <li>Iron Man 2</li>
+        <ol type=a>
+          <li>Release Date</li>
+          <ul>
+            <li>May 7,2010</li>
+          </ul>
+          <li>Directors</li>
+          <ul>
+            <li>Jon Favreau</li>
+          </ul>
+          <li>Producers</li>
+          <ul>
+            <li>Kevin Feige</li>
+          </ul>
+        </ol>
+      </ol>
+      
+     <li><b>Phase Three</b></li>
+      <ol type=A>
+        <li>Infinity War</li>
+        <ul>
+          <li>Ratings</li>
+          <ul>
+            <li>Audience had suspense after the death of the powerful super HEROES</li>
+            <li>One of the biggest Vilans comes into this Movie</li>
+            <li>New Chacters that came was having leasing Roles</li>
+            <li>A great story</li>
+          </ul>
+          <li>Villans</li>
+          <ul>
+            <li>Thanos came with a powerful weapon of gauntlet</li>
+          </ul>
+          <li>Moto of Villans</li>
+          <ul>
+            <li>Destroy Half Population</li>
+            <li>Control the planet Earh under his control</li>
+          </ul>
+          <li>War</li>
+          <li>High Graphics</li>
+          <li>Villans came with a huge number of villans</li>
+        </ul>
+        <li>Avengers Endgame </li>
+        <ul>
+          <li>Rating</li>
+          <ul>
+            <li>Audience gave most love to this movie</li>
+            <li>New scence of different places was introduced</li>
+            <li>Past was agian revived to save the Earth</li>
+          </ul>
+        <li>Villans</li>
+        <ul>
+          <li>Villans was Thanos in this movie also that he was not killed.</li>
+        </ul>
+        <li>War</li>
+        <ul>
+          <li>In this Movie Thanos came with a big ship in order to Destroy the enemy but he faid and we lost our great super hero IRON MAN that died when kiled when he was fighing with Villans</li>
+        <ul>
+      </ol>
+      <li><b>Phase Four(UPCOMING MOVIES)</b></li>
+      <ol type=A>
+        <li>CAPTAIN MARVEL</li>
+        
+      </ol>
+  </ol>
+  </body>
+</html>
