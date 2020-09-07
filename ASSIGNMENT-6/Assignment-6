@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=width="", initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Assignment-8</title>
+</head>
+<body>
+<table border="7" bordercolor="#6b0b6b" >
+
+  <tr><th bgcolor="00FF00"colspan= "5">First Gen Pokemon Chart</th></tr>
+  <tr><th bgcolor="00FF00">Image</th><th  bgcolor = "00FF00">Name</th><th bgcolor ="00FF00">Type</th><th bgcolor= "00FF00">Evolves into </th></tr>
+
+  <tr><th bgcolor=" yellow "><img src = "image1.jpg"></th><th  bgcolor = " yellow">Bulbasaur</th><th bgcolor ="yellow">Grass/Poison</th><th bgcolor= "yellow"><a href= "https://www.pokemon.com/us/pokedex/ivysaur">Ivysaur</a></th></tr>
+  
+  
+  <tr><th bgcolor=" yellow "><img src = "image2.jpg"></th><th  bgcolor = " yellow">Charmander</th><th bgcolor ="yellow">Fire</th><th bgcolor= "yellow"><a href="https://in.portal-pokemon.com/play/pokedex/005">Charmeleon</a></th></tr>
+  
+  <tr><th bgcolor=" yellow "><img src = "image3.jpg"></th><th  bgcolor = " yellow">Squirtle</th><th bgcolor ="yellow">Water</th><th bgcolor= "yellow"><a href="https://in.portal-pokemon.com/play/pokedex/008">Wartortle</a></th></tr>
+  
+  
+</table>
+</body>
+</html>
