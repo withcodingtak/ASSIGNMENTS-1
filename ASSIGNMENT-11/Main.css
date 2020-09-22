@@ -1,0 +1,40 @@
+header{font-family: 'Grenze Gotisch', cursive;
+  background-color:  #EA7773;
+  color: white;
+  text-align: center;
+}
+a{text-decoration: none;
+  font-size:60%;
+  color:#2a63e2;
+}
+
+
+h4{color:#EA425C;
+letter-spacing: 2px;
+}
+div#first{letter-spacing: 4px;
+         word-spacing: 2px;;
+          
+}
+
+h4#two{color:#487EB0;
+       width: 50%;
+       border-top:2px solid #487EB0;
+       float: right;
+       
+}
+div#third{word-spacing: 8px;}
+
+h4#fourth{background-color:#487EB0;
+          color:#EEC213;
+          text-decoration:underline;
+          text-align: center;
+}
+
+p#fifth{text-decoration: line-through;}
+p#sixth{direction: rtl; 
+        unicode-bidi: bidi-override;
+        text-align:right;
+         color: #17e21b;
+  
+}
