@@ -1,0 +1,46 @@
+body{background-color:#1BCA9B ;}
+
+nav{
+  border-radius: 25px;
+   background-color: white;}
+   
+nav ul{overflow: auto;}
+
+nav li{list-style:none;
+       float: left;
+       padding: 10px 30px;
+       color:rgb(225,68,246);}
+       
+nav li:hover{font-weight:bold;
+             background-color:rgb(75,244,223);}
+  
+.allp,div {background-color:white;
+           border-radius:6px;
+}
+
+.font{font-size:23px;
+      font-weight:bold;}
+      
+.new{display: flex;
+     flex-direction:row;
+     vertical-align: middle ;
+}
+
+#span{position:absolute;
+       top:55%;
+       left:45%;
+      
+}
+
+.font2{font-size:25px;
+       font-weight:900;}
+       
+  #img{border:10px solid #fdbefa;}
+  
+  #unique{ border:2px solid #5defdcfd ;
+          position:absolute;
+          top:80%;
+          left:45%;
+  }
+  
+  
