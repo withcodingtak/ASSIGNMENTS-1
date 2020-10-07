@@ -1,0 +1,43 @@
+
+  body{border: 30px groove #0cd50c; 
+       background-color: #a7f8d4;}
+     
+ h3{display:block;
+     text-align:center;
+     background-color: red;
+     animation-name: example;
+     animation-duration: 4s;
+  }
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: #c040f1;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}}
+     
+  .all1{border:19px solid red;
+        border-style:double;
+        margin:19px;
+        border-radius:10px;
+        color:rgb(21,151,247);
+        padding:15px;
+        
+        
+  }
+        
+  #img1{margin:auto;
+        display: block;
+        border:15px solid red;
+        border-style: dotted;}
+
+       
+  
+  .imp:hover{ border-radius:15px;
+              width: 50%;
+              margin:auto;}
+  
+  #img2{margin:auto;
+        display: block;
+        border:15px solid red;
+        border-style: dotted;}
+        
+ 
