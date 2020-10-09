@@ -1,0 +1,30 @@
+body{background-color: yellow;}
+
+img{width:60%;
+    height:60%;
+        display:block;
+            margin:auto;
+            }
+h3{text-align:center;
+   text-decoration: underline;
+   }
+input {display: block;
+       margin: auto;
+              border-radius: 10px;
+              }
+label {padding-left: 40%;
+       font-weight: bold;
+       }
+span { text-align: justify;
+       display:block;
+              margin:auto;}
+#btn{
+            font-weight: bold;
+                        background-color: #e652f7;
+                                    padding:8px;
+                                                border: dotted ;
+                                                            cursor:pointer;
+                                                                        font-size: 13px;
+                                                                                    border-radius: 10px;
+                                                                                            }
+  #btn:hover{background-color: green;}
