@@ -1,0 +1,54 @@
+body{background-color: #22eb20;}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height:50px;
+    border-radius: 10px;
+}
+#navbar{background-color: black;}
+#navbar ul{
+    display: flex;
+    font-family: ' cursive';
+}
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: cyan;
+}
+
+#img1{width: 100%;
+      height: 330px;}
+      
+#dog1{text-align: center;
+      background-color: #c5fefef4;
+      border: 3px solid #45f354;
+      border-style: dotted;
+      border-radius: 9px;
+      margin: 7px;
+}
+
+.fleximg{width: 200px;
+         height: 200px;
+         margin-top:10px;
+         margin-left: 150px;
+         margin-right: 150px;
+         border: 2px solid cyan;
+         border-radius:100px;
+         
+         
+}
+
+#flex1{display:flex;}
