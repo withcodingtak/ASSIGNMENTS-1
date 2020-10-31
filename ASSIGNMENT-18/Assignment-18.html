@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="" content="">
+    <title>Assignment-18</title>
+    <style type="text/css" media="all">
+      #nav{background-color: black;
+        border-radius: 20px;
+      }
+      ul{display: flex;}
+      li{list-style: none;
+        padding: 8px 8px;
+        transition: all 2s ease-in-out;
+      }
+      li:hover{font-weight:bold;
+               background-color: white;}
+      a{text-decoration: none;
+        color: #6bfc88;
+      }
+      
+     /* #blog{width: 30px;
+            height:30px;}*/
+      #divall{content:" ";
+         background-image:url('https://picsum.photos/200');
+         background-repeat: no-repeat;
+         background-position: center center ;
+         background-size: cover;
+         position: absolute;
+         height: 100%;
+         width: 100%;
+         z-index: -1;}
+         
+      nav::before{content:" ";
+         background-image:url('https://source.unsplash.com/random');
+         background-repeat: no-repeat;
+         background-position: center center ;
+         background-size: cover;
+         position: absolute;
+         height: 100%;
+         width: 100%;
+         z-index: -1;}
+         
+         .link{position: relative;}
+         
+         
+      
+      .link:hover{animation-name:link;
+          animation-duration: 4s;}
+      @keyframes link{
+        0%   {top:20px;}
+  25%  {top:300px;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}}
+  
+      #div1{font-size:30px;
+        font-weight: bold;
+        color: white;
+        text-align:center;
+        animation: animation2 5s linear 2s 2;
+        position: relative;
+      
+      }
+
+@keyframes animation2 {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+      
+      .flex{display: flex;}
+      .divflex{border: 2px solid green;
+               margin: 8px 8px ;
+               padding: 5px 5px;
+               border-radius: 10px;
+               z-index: 5;
+      }
+      
+
+
+@keyframes animation1 {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+   .button {
+  position: relative;
+  background-color: #4CAF50;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+     position: relative;
+     justify-content: center;
+   }
+   
+   .button:hover{animation-name: animation3;
+   animation-duration: 4s;
+   }
+   @keyframes animation3{
+     0{left: 100px; background-color:red;}
+     25%{background-color: blue; top:100px;}
+     75%{background-color: yellow; left: 10px;}
+     100%{background-color: green;}
+     
+   
+  
+  .button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+opacity: 1;
+  transition: 0s;}
+
+      
+    </style>
+  </head>
+  <body>
+    <nav id="nav">
+      <ul>
+        <li><a id="blog" href="https://www.start-business-online.com/images/thumbs/420_270/article_manager_uploads/blog.jpg"></a>hh</li>
+        <li><a href="#" class="link">Home </a></li>
+        <li><a href="#" class="link">Contact Us</a></li>
+        <li><a href="#" class="link">About Us</a></li>
+        <li><a href="#" class="link">More</a></li>
+      </ul>
+    </nav>
+    
+    <div id="div1">
+      Welcome To Twisha's blog
+    </div>  <br />
+   <div class="flex">
+     <div class="divflex">
+       <h3>Recent Blogs</h3>
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque est tempore enim minus omnis porro autem! Autem nisi eius fugiat provident harum ea accusantium voluptas. Deleniti iste odit magni 
+     </div>
+     
+     <div class="divflex">
+       <h3>Latest</h3>
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate natus saepe nisi facere a, aperiam! Laborum, hic sapiente blanditiis quaerat libero similique possimus maiores facere volup.
+     </div>
+     
+     <div class="divflex">
+       <h3>More about</h3>
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos eligendi, sunt ducimus ratione soluta, quibusdam tempore quis magni at sapiente odio, nihil. Ipsum magni quis 
+     </div>
+   </div>
+   
+   <div id="divall">
+     
+   </div>
+   
+   <button class="button" >E-books</button>
+   <button class="button" >Grocery</button>
+   <button class="button">Clothes</button>
+   <button  class="button">Ticket</button><br />
+  </body>
+</html>
