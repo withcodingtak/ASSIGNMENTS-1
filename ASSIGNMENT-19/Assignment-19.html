@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="" content="">
+    <title>Assignment-18</title>
+    <style type="text/css" media="all">
+      #nav{background-color: #fb4d8e;
+        border-radius: 20px;
+      }
+      body{background-color: #000000;}
+      ul{display: flex;}
+      li{list-style: none;
+        padding: 8px 8px;
+        transition: all 2s ease-in-out;
+      }
+      li:hover{font-weight:bold;
+               background-color: white;}
+      a{text-decoration: none;
+        color: #6bfc88;
+        border-radius: 10px
+      }
+      
+     /* #blog{width: 30px;
+            height:30px;}*/
+      #divall{content:" ";
+         background-image:url('https://picsum.photos/200');
+         background-repeat: no-repeat;
+         background-position: center center ;
+         background-size: cover;
+         position: absolute;
+         height: 100%;
+         width: 100%;
+         z-index: -1;}
+         
+      nav::before{content:" ";
+         background-image:url('https://source.unsplash.com/random');
+         background-repeat: no-repeat;
+         background-position: center center ;
+         background-size: cover;
+         position: absolute;
+         height: 100%;
+         width: 100%;
+         z-index: -1;}
+         
+         .link{position: relative;}
+         
+         
+      
+      .link:hover{animation-name:link;
+          animation-duration: 4s;}
+      @keyframes link{
+        0%   {top:20px;}
+  25%  {top:300px;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}}
+  
+      #div1{font-size:30px;
+        font-weight: bold;
+        color: white;
+        text-align:center;
+        animation: animation2 5s linear 2s 2;
+        position: relative;
+      
+      }
+
+@keyframes animation2 {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+      
+      .flex{display: flex;}
+      .divflex{border: 2px solid green;
+               margin: 8px 8px ;
+               padding: 5px 5px;
+               border-radius: 10px;
+               z-index: 5;
+      }
+      
+
+
+@keyframes animation1 {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+.flexbox{display: flex;}
+
+.item ,.item2,.item3{background-color: #adfbcb;
+  height:250px;
+  width:225px ;
+  border-radius: 9px;
+  transition: all 2s ease-out;
+  margin: 6px;
+}
+.item:hover{height:350px;
+  color: red;
+  z-index: 1;
+  
+}
+
+.img{height: 225px; 
+width: 225px;
+  border-radius:9px;
+}
+
+        
+.span{text-align: center;
+display: block;
+text-align: center;}
+
+.item2:hover{transform :rotateY(360deg);}
+.item3:hover{transform:rotate(40deg)}
+
+
+    </style>
+  </head>
+  <body>
+    <nav id="nav">
+      <ul>
+        <li><a href="#" class="link">Home </a></li>
+        <li><a href="#" class="link">Contact Us</a></li>
+        <li><a href="#" class="link">About Us</a></li>
+        <li><a href="#" class="link">More</a></li>
+      </ul>
+    </nav>
+    
+    <div id="div1">
+      Welcome To Twisha's Website
+    </div>  <br />
+
+     <div class="flexbox">
+        <div class="item3">
+            <img class="img" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cute-cat-breeds-laperm-1568334824.jpg?crop=1.00xw:0.667xh;0,0.0568xh&resize=480:*" alt="g" /><span class="span">LaPerm</span>
+          </div>
+          <div class="item3">
+            <img class="img" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cute-cat-breeds-russian-blue-1588187842.jpg?crop=0.6643126177024482xw:1xh;center,top&resize=480:*" alt="g" /><span class="span">Russian Blue</span>
+          </div>
+          <div class="item3">
+            <img class="img" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cute-cat-breeds-birman-1588187820.jpg?crop=1xw:1xh;center,top&resize=480:*" alt="g" /> <span  class="span">Birman</span>
+          </div>    
+        </div>
+        
+        
+        <div class="flexbox">
+          <div class="item"><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cute-cat-breeds-ragdoll-1568332272.jpg?crop=0.668xw:1.00xh;0.104xw,0&resize=480:*" class="img"/>
+             <span class="span">Ragdoll</span>The most striking feature of this large cat breed may just be its beautiful blue eyes. Though the Ragdoll sheds, Cat Fanciers' Associates 
+             </div>
+             <div class="item"><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cute-cat-breeds-egyptian-mau-1568333504.jpg?crop=0.9951409135082604xw:1xh;center,top&resize=480:*"  class="img"/><span class="span">Egyptian Mau</span></div>
+             <div class="item"><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cute-cat-breeds-himalayan-1568332447.jpg?crop=0.668xw:1.00xh;0.248xw,0&resize=480:*" class="img" /><span class="span">Himalayan</span>Though usually medium in size, the Himalayan's masses of fur can make this breed appear much larger than it actually is, according to Hill's .</div>
+        </div>
+   
+          <div>
+          
+        <div class="flexbox"><div class="item2">
+            <img class="img" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cute-cat-breeds-maine-coon-1568334165.jpg?crop=0.668xw:1.00xh;0.207xw,0&resize=480:*" alt="g" />
+            <span class="span">Maine Coon</span>
+          </div>
+          <div class="item2">
+            <img class="img" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cute-cat-breeds-persian-1568334641.jpg?crop=0.910xw:1.00xh;0.0493xw,0&resize=480:*" alt="g" />
+            <span class="span">Persian</span>
+          </div>
+          <div class="item2">
+            <img class="img" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cute-cat-breeds-turkish-angora-1568334470.jpg?crop=0.668xw:1.00xh;0.259xw,0&resize=480:*" alt="g" /> <span class="span">Turkish Angora</span>
+          </div>
+        </div>
+        <div>
+          
+
+  </body>
+</html>
